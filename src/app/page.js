@@ -5,15 +5,7 @@ import HomeNav from '../components/HomeNav'
 import LogoAnimation from '../components/LogoAnimation'
 
 export default function Home() {
-  
-  const [showMainPage, setShowMainPage] = useState(false);
-
-  useEffect(() => {
-    // Show the main page after the animation completes
-    setTimeout(() => {
-      setShowMainPage(true);
-    }, 2000); 
-  }, []);
+ 
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -28,7 +20,7 @@ export default function Home() {
             />
       </div> */}
       {/* <LogoAnimation /> */}
-      {showMainPage && <HomeNav />}
+      {/* {showMainPage && <HomeNav />} */}
       <div>
         Hey there welcome to the world of Blogs & news. 
       </div>
