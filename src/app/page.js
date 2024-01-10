@@ -12,7 +12,7 @@ export default function Home() {
     // Show the main page after the animation completes
     setTimeout(() => {
       setShowMainPage(true);
-    }, 2000); // Adjust the duration to match the logo animation
+    }, 2000); 
   }, []);
 
   return (
@@ -30,7 +30,7 @@ export default function Home() {
       {/* <LogoAnimation /> */}
       {showMainPage && <HomeNav />}
       <div>
-        Hey there welcome to the world of Blogs. 
+        Hey there welcome to the world of Blogs & news. 
       </div>
     </main>
   )
